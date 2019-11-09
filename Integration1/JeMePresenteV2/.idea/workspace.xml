@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c8582d3-3410-462e-b016-38a754303ae5" name="Default Changelist" comment="" />
+    <list default="true" id="f4e0288c-4e30-49ea-baaf-8604cda56b20" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,16 +13,24 @@
       <executable />
     </execution>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectId" id="1Sqb92aNkBudRq6al4I5Ck8cAJn" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1TNsY9AUfcjS1rhy7C84XfVa0nw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Techniques de programmation WEB I/24octEx1" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -41,19 +49,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8c8582d3-3410-462e-b016-38a754303ae5" name="Default Changelist" comment="" />
-      <created>1572293918501</created>
+      <changelist id="f4e0288c-4e30-49ea-baaf-8604cda56b20" name="Default Changelist" comment="" />
+      <created>1573311932129</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572293918501</updated>
-      <workItem from="1572293921801" duration="2430000" />
-      <workItem from="1572660199526" duration="505000" />
-      <workItem from="1572708989147" duration="1433000" />
-      <workItem from="1573140355226" duration="48000" />
+      <updated>1573311932129</updated>
+      <workItem from="1573311933252" duration="3622000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
