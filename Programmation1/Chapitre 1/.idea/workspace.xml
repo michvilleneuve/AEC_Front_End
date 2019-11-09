@@ -49,12 +49,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/24oct/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Exercice10.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Exercice10.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="Exercice3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Exercice3.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.Exercice10.js" />
         <item itemvalue="Node.js.Exercice3.js" />
       </list>
     </recent_temporary>
@@ -85,7 +93,11 @@
       <workItem from="1573170071681" duration="1647000" />
       <workItem from="1573173208094" duration="145000" />
       <workItem from="1573175957428" duration="212000" />
-      <workItem from="1573176192426" duration="1026000" />
+      <workItem from="1573176192426" duration="3051000" />
+      <workItem from="1573179837749" duration="2021000" />
+      <workItem from="1573228002779" duration="44000" />
+      <workItem from="1573228090254" duration="2087000" />
+      <workItem from="1573306348997" duration="32000" />
     </task>
     <servers />
   </component>

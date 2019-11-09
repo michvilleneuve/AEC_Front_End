@@ -6,13 +6,25 @@
 // Le montant de TPS est de 5% et la TVQ est de 9.975%.
 // Vous affichez la date, les 2 montants de taxes et le grand total.
 
-var article1
-var article2
-var article3
-var date
-var TPS = 5%;
-var TVQ = 9.975%;
+var article1;
+var article2;
+var article3;
+var date;
+var TPS;
+var TVQ;
+var sousTotal;
+var total;
 
-var article1 = prompt ("Entrez le prix de l'article 1");
-var article2 = prompt ("Entrez le prix de l'article 2");
-var article3 = prompt ("Entrez le prix de l'article 3");
+date = prompt("Entrez la date de l'achat");
+article1 = Number(prompt("Entrez le prix de l'article 1"));
+article2 = Number(prompt("Entrez le prix de l'article 2"));
+article3 = Number(prompt("Entrez le prix de l'article 3"));
+sousTotal = article1 + article2 + article3;
+TVQ = sousTotal * 0.09975;
+TPS = sousTotal * 0.05;
+total = sousTotal + TPS + TVQ;
+
+console.log ("Date de l'achat : " + date)
+console.log ("La TVQ est de : " + TVQ);
+console.log ("La TPS est de : " + TPS);
+console.log ("Le montant total est de " + total);
