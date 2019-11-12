@@ -16,6 +16,9 @@ var examFinal;
 var lab;
 var noteFinale;
 
-examenMiSession = prompt("Veuillez entrez la note de l'examen de mi-session");
-examFinal = prompt("Veuillez entrez la note de l'examen");
-lab = prompt("Veuillez entrez la note du laboratoire");
+examMiSession = Number(prompt("Veuillez entrez la note de l'examen de mi-session"));
+examFinal = Number(prompt("Veuillez entrez la note de l'examen"));
+lab = Number(prompt("Veuillez entrez la note du laboratoire"));
+noteFinale = examMiSession + examFinal + lab;
+
+console.log ("Note finale : " + noteFinale);
