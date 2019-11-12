@@ -21,4 +21,4 @@ examFinal = Number(prompt("Veuillez entrez la note de l'examen"));
 lab = Number(prompt("Veuillez entrez la note du laboratoire"));
 noteFinale = examMiSession + examFinal + lab;
 
-console.log ("Note finale : " + noteFinale);
+console.log ("Note finale : " + noteFinale + " %");
