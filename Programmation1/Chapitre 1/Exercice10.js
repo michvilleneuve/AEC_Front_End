@@ -4,7 +4,7 @@
 // les taxes de vente et le grand total de la facture.
 // Vous demandez à l'usager la date et le montant de chacun des 3 articles achetés.
 // Le montant de TPS est de 5% et la TVQ est de 9.975%.
-// Vous affichez la date, les 2 montants de taxes et le grand total.
+// Vous affichez la date, les 2 montants de taxes et le grand total
 
 var article1;
 var article2;
