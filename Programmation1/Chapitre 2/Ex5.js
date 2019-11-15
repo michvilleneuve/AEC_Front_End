@@ -7,7 +7,7 @@ var temp;
 
 temp = Number(prompt("Veuillez entrer la température : "));
 
-if (temp <= -10 && >= -40){
+f (temp >= -40 && temp <= -10){
     document.write("« HAAAAAAAAA! Il fait froid»");
 }
 else{
