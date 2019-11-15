@@ -5,16 +5,25 @@
 // Entre 60 et 70 : D
 // Moins de 60 : E
 
-var lettre;
+var note;
 
-lettre = prompt("Veuillez entrer la note obtenue : ");
+note = Number(prompt("Veuillez entrer la note obtenue : "));
 
-if (lettre >= 90){
+if (note >= 90){
     document.write("A");
 }
-else if (lettre >= 80 && <= 89){
+else if (note >= 80 && <= 89){
     document.write("B");
 }
-else if (lettre <= 70 && <= 79){
+else if (note >= 70 && <= 79){
     document.write("C");
+}
+else if (note >= 60 && <= 69){
+    document.write("D");
+}
+else if (note <= 59){
+    document.write("E");
+}
+else{
+    document.write("format non-valide");
 }

@@ -30,6 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -53,7 +54,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573776672840</updated>
-      <workItem from="1573776674015" duration="9349000" />
+      <workItem from="1573776674015" duration="9546000" />
+      <workItem from="1573787064916" duration="877000" />
+      <workItem from="1573789008362" duration="1048000" />
+      <workItem from="1573848206403" duration="5577000" />
     </task>
     <servers />
   </component>
@@ -65,7 +69,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -22,7 +22,7 @@ nomEtudiant = prompt("Veuillez entrer votre nom :");
 noteLab = Number(prompt("Entrez la note de l'examen de laboratoire : "));
 examMiSession = Number(prompt("Entrez la note de l’examen de mi-session : "));
 examFinSession = Number(prompt("Entrez la note de l'examen de fin de session : "));
-noteFinale = Number((noteLab / 100) * 20)+ Number((examMiSession / 100) * 30)+ Number((examFinSession / 100) * 50);
+noteFinale = Number(noteLab * 0.20 + examMiSession * 0.30 + examFinSession * 0.50);
 
 alert("Relevé de note pour : " + nomEtudiant);
 alert("Note de l'examen de laboratoire : " + noteLab + " %");
