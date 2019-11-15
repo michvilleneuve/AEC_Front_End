@@ -9,7 +9,7 @@ nb2 = Number(prompt("Veuillez entrer le deuxième nombre : "));
 if (nb1 > nb2){
     document.write("Le premier nombre est plus grand");
 }
-else (nb1 < nb2){
+else {
     document.write("Le deuxième nombre est plus grand");
 }
 
