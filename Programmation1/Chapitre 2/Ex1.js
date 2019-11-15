@@ -9,6 +9,11 @@ nb2 = Number(prompt("Veuillez entrer le deuxième nombre : "));
 if (nb1 > nb2){
     document.write("Le premier nombre est plus grand");
 }
+
+else if (nb1 === nb2) {
+    document.write("Les deux nombres sont égaux");
+}
+
 else {
     document.write("Le deuxième nombre est plus grand");
 }
