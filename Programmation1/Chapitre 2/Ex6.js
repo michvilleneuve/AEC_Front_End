@@ -12,16 +12,16 @@ note = Number(prompt("Veuillez entrer la note obtenue : "));
 if (note >= 90){
     document.write("A");
 }
-else if (note >= 80 && <= 89){
+else if (note >= 80 && note<= 89){
     document.write("B");
 }
-else if (note >= 70 && <= 79){
+else if (note >= 70 && note<= 79){
     document.write("C");
 }
-else if (note >= 60 && <= 69){
+else if (note >= 60 && note<= 69){
     document.write("D");
 }
-else if (note <= 59){
+else if (note < 60){
     document.write("E");
 }
 else{
