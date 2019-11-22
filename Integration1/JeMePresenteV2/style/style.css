@@ -5,6 +5,7 @@
 body {
     width: 900px;
     text-align: center;
+    margin: auto;
     background: url(../media/light.jfif) no-repeat center;
     background-color: #2f323d;
 }
@@ -22,7 +23,7 @@ h1, h2 {
 }
 
 p {
-    font-size: 111px;
+    font-size: 14px;
     text-align: justify;
 }
 
@@ -35,7 +36,22 @@ a:visited {
 }
 a:hover{
     text-decoration: underline;
+    box-shadow: 5px 10px #888888;
 }
-.img{
-    width:  300px;
+img{
+    width: 350px;
+    border: 2px solid #6a60ff;
+    border-radius: 25px;
+}
+table, th, td {
+    border: 1px solid black;
+    text-align:center;
+    color: cornflowerblue;
+    font-size: 24px;
+}
+ul {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+    font-size: 30px;
 }
