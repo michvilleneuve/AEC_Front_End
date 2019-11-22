@@ -1,0 +1,41 @@
+/* style.css */
+/* Programmé par Michèle */
+/* 2019/11/21 */
+
+body {
+    width: 900px;
+    text-align: center;
+    background: url(../media/light.jfif) no-repeat center;
+    background-color: #2f323d;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1, h2 {
+    color: lightblue;
+}
+
+p {
+    font-size: 111px;
+    text-align: justify;
+}
+
+a:link {
+    color: cornflowerblue;
+}
+
+a:visited {
+    color: darkblue;
+}
+a:hover{
+    text-decoration: underline;
+}
+.img{
+    width:  300px;
+}

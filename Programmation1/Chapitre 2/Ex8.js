@@ -21,3 +21,6 @@ if (nbHeures <= 40){
 else if (nbHeures > 40){
     document.write("Le salaire est de : " + salaireAvecTempsDouble);
 }
+else{
+    document.write ("Format invalide");
+}

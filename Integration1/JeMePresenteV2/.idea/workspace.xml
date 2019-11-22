@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -30,6 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -59,6 +61,8 @@
       <workItem from="1574011688686" duration="2715000" />
       <workItem from="1574014738063" duration="1910000" />
       <workItem from="1574213741514" duration="260000" />
+      <workItem from="1574368534798" duration="78000" />
+      <workItem from="1574379373810" duration="7446000" />
     </task>
     <servers />
   </component>
