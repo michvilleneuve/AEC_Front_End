@@ -30,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jsx.switch.disabled" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Integration1/JeMePresenteV2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -62,6 +62,7 @@
       <workItem from="1574010999030" duration="684000" />
       <workItem from="1574368614589" duration="5958000" />
       <workItem from="1574379329484" duration="42000" />
+      <workItem from="1574452198339" duration="2801000" />
     </task>
     <servers />
   </component>

@@ -2,22 +2,48 @@
 // Si le nombre saisi ne correspond pas à un mois, affichez le message suivant : « Mois invalide ».
 
 var nbEntier;
-var 1 = 'janvier';
-var 2 = 'fevrier';
-var 3 = 'mars';
-var 4 = 'avril';
-var 5 = 'mai';
-var 6 = 'juin';
-var 7= 'juillet';
-var 8 = 'aout';
-var 9 = 'septembre';
-var 10 = 'octobre';
-var 11 = 'novembre';
-var 12 = 'decembre';
 
-nbEntier = prompt("Veuillez entrer un nombre entier compris entre 1 et 12 :");
+nbEntier = Number(prompt("Entrez un nombre entre 1 et 12 :"));
 
-if (nbEntier)
+if (nbEntier === 1){
+    document.write("Janvier");
+}
+else if (nbEntier === 2){
+    document.write("Février");
+}
+else if (nbEntier === 3){
+    document.write("Mars");
+}
+else if (nbEntier === 4){
+    document.write("Avril");
+}
+else if (nbEntier === 5){
+    document.write("Mai");
+}
+else if (nbEntier === 6){
+    document.write("Juin");
+}
+else if (nbEntier === 7){
+    document.write("Juillet");
+}
+else if (nbEntier === 8){
+    document.write("Août");
+}
+else if (nbEntier === 9){
+    document.write("Septembre");
+}
+else if (nbEntier === 10){
+    document.write("Octobre");
+}
+else if (nbEntier === 11){
+    document.write("Novembre");
+}
+else if (nbEntier === 12){
+    document.write("Décembre");
+}
+else{
+    document.write("Format invalide");
+}
 
 
 
