@@ -19,7 +19,7 @@ prixVoiture = Number(prompt("Prix de la voiture : "));
 // sexe.toUpperCase() == "H" permet de prendre une minuscule lue en lettre majuscule
 
 if (sexe.toUpperCase() == "H"){
-    if (age <= 25 && age >= 16){
+            if (age <= 25 && age >= 16){
         document.write("Vos assurances seront de : " + (prixVoiture * 0.05));
     }
 else {

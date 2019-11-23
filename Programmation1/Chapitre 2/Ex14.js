@@ -1,4 +1,4 @@
-// Ex13.jc
+// Ex14.js
 // Code par Michèle Villeneuve
 // Le 209/11/23
 
