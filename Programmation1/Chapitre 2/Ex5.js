@@ -11,6 +11,9 @@ if (temp >= -40 && temp <= -10){
     document.write("« HAAAAAAAAA! Il fait froid»");
 }
 
+else if (temp < -40){
+    document.write("C'est pas humain !!"){
+}
 else{
     document.write("« Enfin une belle journée! »");
 }
