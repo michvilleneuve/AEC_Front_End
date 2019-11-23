@@ -22,10 +22,8 @@ if (sexe === "h"){
         document.write("Vos assurances seront de : " + (prixVoiture * 0.05));
     }
 }
-else if (sexe === "h"){
-    if (age > 25){
+else if (age > 25){
         document.write("Vos assurances seront de : " + (prixVoiture * 0.03));
-    }
 }
 // Prix fille
 
@@ -34,8 +32,6 @@ if (sexe === "f"){
         document.write("Vos assurances seront de : " + (prixVoiture * 0.03));
     }
 }
-else if (sexe === "f"){
-    if (age > 25){
+else if (age > 25){
         document.write("Vos assurances seront de : " + (prixVoiture * 0.02));
-    }
 }
