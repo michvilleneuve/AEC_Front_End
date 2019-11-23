@@ -13,12 +13,12 @@ var prixVoiture;
 
 sexe = prompt("Sexe (h/f) : ");
 age = Number(prompt("Âge : "));
-prixVoiture = prompt("Prix de la voiture : ");
+prixVoiture = Number(prompt("Prix de la voiture : "));
 
 // Prix garçon
 
 if (sexe === "h"){
-    if (age <= 25 && >= 16){
+    if (age <= 25 && age >= 16){
         document.write("Vos assurances seront de : " + (prixVoiture * 0.05));
     }
 }
@@ -30,11 +30,11 @@ else if (sexe === "h"){
 // Prix fille
 
 if (sexe === "f"){
-    if (age <= 25 && >= 16){
+    if (age <= 25 && age >= 16){
         document.write("Vos assurances seront de : " + (prixVoiture * 0.03));
     }
 }
-else if (sexe === "h"){
+else if (sexe === "f"){
     if (age > 25){
         document.write("Vos assurances seront de : " + (prixVoiture * 0.02));
     }
