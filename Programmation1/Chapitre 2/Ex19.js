@@ -15,6 +15,6 @@ if (vente >= 500){
     document.write("Le montant de l'escompte est de : " + escompte);
 }
 else{
-    document.write("Vous n'avez pas droit à l'escompte puisquef le montant de la vente est inférieur à 500 $");
+    document.write("Vous n'avez pas droit à l'escompte puisque le montant de la vente est inférieur à 500 $");
 }
 
