@@ -64,7 +64,7 @@ else{
     prixMatriceLEDS = 0;
     matriceLEDS = "Pas de matrice LEDS";
 }
-document.write(controleur + nbMoteur + " moteurs " + camUSB + prixMatriceLEDS);
+document.write(controleur + nbMoteur + " moteurs " + camUSB + MatriceLEDS);
 document.write("Prix : " + prix + "$");
 document.write("Prix avec livraison : " + (prix * 0.15) + " $");
 
