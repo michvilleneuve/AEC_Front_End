@@ -1,6 +1,6 @@
 // Ex21.js
-// Code par Michèle Villeneuve
-// Date : 209/11/26
+// // Code par Michèle Villeneuve
+// // Date : 209/11/26
 
 //Le Service de la Qualité de l’Environnement possède trois listes de
 // noms d’industries reconnues pour leur haut taux de pollution atmosphérique.
