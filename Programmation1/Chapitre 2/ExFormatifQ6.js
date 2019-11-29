@@ -26,29 +26,48 @@
 // le prix avec la livraison de 15%.
 
 var controleur;
+var prixControleur;
 var nbMoteur;
 var camUSB;
 var matriceLEDS;
 var prix;
-var prixLivraison;
+var prixCamUSB;
+var prixMatriceLEDS;
 
-controleur = Number(prompt("veuillez choisir entre le RaspBerry Pi (1) et le RaspBerry Pi (2) : "));
+controleur = Number(prompt("veuillez choisir entre le RaspBerry Pi (1) et le RaspBerry Pi Zero (2) : "));
 nbMoteur = Number(prompt("Veuillez choisir le nombre de moteur désiré (entre 2 et 24) : "));
 camUSB = prompt("Voulez-vous une caméra USB ? Répondre par O ou N");
 matriceLEDS = prompt("Voulez-vous une matrice LEDS ? Répondre par O ou N");
-prixLivraison = 0.15;
-prix = (controleur + (nbMoteur * 5) + camUSB + matriceLEDS + prixLivraison + 15 + 20); //à travailler
+prix = (prixControleur + (nbMoteur * 5) + prixCamUSB + prixMatriceLEDS + 15 + 20);
 
 if (controleur === 1){
-    controleur = 55;
+    prixControleur = 55;
+    controleur = "Robot avec RaspBerry Pi ";
 }
 else {
-    controleur = 15;
+    prixControleur = 15;
+    controleur = "Robot avec RaspBerry Pi Zero "
 }
-if (matriceLEDS === "O"){
-    matriceLEDS = 10;
+
+if (camUSB.toUpperCase === "O"){
+    prixCamUSB = 35;
 }
 else{
-    matriceLEDS = 0;
+    prixCamUSB = 0;
+    camUSB = "Pas de caméra USB";
 }
+
+if (matriceLEDS.toUpperCase === "O"){
+    prixMatriceLEDS = 10;
+}
+else{
+    prixMatriceLEDS = 0;
+    matriceLEDS = "Pas de matrice LEDS";
+}
+document.write(controleur + nbMoteur + " moteurs " + camUSB + prixMatriceLEDS);
+document.write("Prix : " + prix + "$");
+document.write("Prix avec livraison : " + (prix * 0.15) + " $");
+
+
+
 
