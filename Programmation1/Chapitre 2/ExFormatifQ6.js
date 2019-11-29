@@ -46,9 +46,9 @@ else {
     controleur = 15;
 }
 if (matriceLEDS === "O"){
-    matriceLEDS = 10
+    matriceLEDS = 10;
 }
 else{
-    matriceLEDS = 0
+    matriceLEDS = 0;
 }
-document.write(controleur);
+
