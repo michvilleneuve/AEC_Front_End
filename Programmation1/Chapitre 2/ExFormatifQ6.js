@@ -38,7 +38,7 @@ controleur = Number(prompt("veuillez choisir entre le RaspBerry Pi (1) et le Ras
 nbMoteur = Number(prompt("Veuillez choisir le nombre de moteur désiré (entre 2 et 24) : "));
 camUSB = prompt("Voulez-vous une caméra USB ? Répondre par O ou N");
 matriceLEDS = prompt("Voulez-vous une matrice LEDS ? Répondre par O ou N");
-prix = (prixControleur + (nbMoteur * 5) + prixCamUSB + prixMatriceLEDS + 15 + 20);
+prix = Number((prixControleur + (nbMoteur * 5) + prixCamUSB + prixMatriceLEDS + 15 + 20));
 
 if (controleur === 1){
     prixControleur = 55;
@@ -51,14 +51,16 @@ else {
 
 if (camUSB.toUpperCase === "O"){
     prixCamUSB = 35;
+    camUSB = "Avec caméra USB ";
 }
 else{
     prixCamUSB = 0;
-    camUSB = "Pas de caméra USB ";
+    camUSB = " Pas de caméra USB ";
 }
 
 if (matriceLEDS.toUpperCase === "O"){
     prixMatriceLEDS = 10;
+    matriceLEDS = "Avec matrice LEDS"
 }
 else{
     prixMatriceLEDS = 0;
