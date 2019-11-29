@@ -54,7 +54,7 @@ if (camUSB.toUpperCase === "O"){
 }
 else{
     prixCamUSB = 0;
-    camUSB = "Pas de caméra USB";
+    camUSB = "Pas de caméra USB ";
 }
 
 if (matriceLEDS.toUpperCase === "O"){
@@ -62,7 +62,7 @@ if (matriceLEDS.toUpperCase === "O"){
 }
 else{
     prixMatriceLEDS = 0;
-    matriceLEDS = "Pas de matrice LEDS";
+    matriceLEDS = "Pas de matrice LEDS ";
 }
 document.write(controleur + nbMoteur + " moteurs " + camUSB + matriceLEDS);
 document.write("Prix : " + prix + "$");
