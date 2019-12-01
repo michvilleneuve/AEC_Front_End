@@ -1,4 +1,4 @@
-// ExFormatif.js
+// ExFormatifQ6.js
 // // Codé par Michèle Villeneuve
 // // Date : 2019/12/01
 
