@@ -50,9 +50,6 @@ else{
     matriceLEDS = ", pas de matrice LEDS ";
 }
 
-//REMARQUE: J'ai assigné les deux variables suivantes à la fin du code puisqu'elles comprennent
-// des variables qui sont assignées durant le code, selon le choix de l'utilisateur, et autrement rien ne fonctionnait.
-//Si c'est une pratique à éviter dis-moi le !
 total = Number(prixControleur + (nbMoteur * 5) + prixCamUSB + prixMatriceLEDS + 15 + 20);
 totalLivraison = Number(total * 0.15 + total );
 
