@@ -30,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Programmation1/Chapitre 2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -65,6 +65,10 @@
       <workItem from="1574379373810" duration="10456000" />
       <workItem from="1574391226736" duration="285000" />
       <workItem from="1574452169135" duration="27000" />
+      <workItem from="1574642800560" duration="261000" />
+      <workItem from="1574793677356" duration="609000" />
+      <workItem from="1575131242957" duration="64000" />
+      <workItem from="1575324342276" duration="2455000" />
     </task>
     <servers />
   </component>
