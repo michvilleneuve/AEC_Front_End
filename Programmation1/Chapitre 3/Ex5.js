@@ -1,11 +1,24 @@
 //Ex5.js
 //Code par Michèle Villeneuve
-//2019/12/12
+//2019/12/16
 
+//var nb = Math.floor(Math.random() * 10)
 //Faire un programme qui affiche 100 nombres aléatoires 0 ou 1 et compter le nombre de 0 et de 1.
 
-for (var i = )
+var nb;
+var zero;
+var un;
 
-var nbHasard = Math.floor(Math.random() * 2; );
-     document.write(nbHasard);
+un = Number(0);
+zero = Number(0);
 
+for (var i = 1;i <= 100;i++){
+     console.log(nb = Math.floor(Math.random() * 2));
+     if(nb === 0){
+          zero++;
+     }
+     else{
+          un++;
+     }
+}
+document.write(un + " un et " + zero + " zéro");
