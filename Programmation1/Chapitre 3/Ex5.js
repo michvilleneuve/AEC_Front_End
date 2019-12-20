@@ -12,8 +12,8 @@ var un;
 un = Number(0);
 zero = Number(0);
 
-for (var i = 1;i <= 100;i++){
-     console.log(nb = Math.floor(Math.random() * 2));
+for (var i =0;i < 100;i++){
+     console.log(nb = Math.floor(Math.random() * 2)); //à noter qu'au début j'ai écrit i <= 100 mais ça donnait 101 shot au lieu de 100
      if(nb === 0){
           zero++;
      }
