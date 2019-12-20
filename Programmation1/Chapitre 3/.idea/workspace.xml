@@ -34,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -74,7 +75,7 @@
       <workItem from="1576333182006" duration="43000" />
       <workItem from="1576538653173" duration="4350000" />
       <workItem from="1576798120511" duration="67000" />
-      <workItem from="1576798277609" duration="7869000" />
+      <workItem from="1576798277609" duration="11214000" />
     </task>
     <servers />
   </component>
