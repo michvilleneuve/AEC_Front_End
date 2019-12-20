@@ -8,11 +8,11 @@
 var mot;
 var compteur = Number(0);
 
-
-mot = prompt("Entrez un mot : ");
+// J'ai mis mon "mot = prompt("Entrez un mot : ");" par erreur, il doit aller dans la boucle
 
 while (mot !== "patate"){
+    mot = prompt("Entrez un mot : ");
     compteur++;
     document.write(mot);
 }
-document.write(compteur);
+document.write("Nombre de fois compteur);
