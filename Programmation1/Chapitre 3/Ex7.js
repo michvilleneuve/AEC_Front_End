@@ -13,6 +13,6 @@ var compteur = Number(0);
 while (mot !== "patate"){
     mot = prompt("Entrez un mot : ");
     compteur++;
-    document.write(mot);
+    document.write(mot + "<br>");
 }
-document.write("Nombre de fois compteur);
+document.write(" " + compteur + " Tentatives ont été nécessaires.");
