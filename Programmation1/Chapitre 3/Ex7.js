@@ -6,13 +6,13 @@
 //  a) Comptez et affichez le nombre de mots entrés avant le mot patate.
 
 var mot;
-var compteur = Number(0);
+var compteur = Number(-1); //J'ai mis la valeur à -1 car si le premier mot entré est patate, le nombre doit etre zéro
 
-// J'ai mis mon "mot = prompt("Entrez un mot : ");" par erreur, il doit aller dans la boucle
+// J'ai mis mon "mot = prompt("Entrez un mot : ");" ici par erreur, il doit aller dans la boucle
 
 while (mot !== "patate"){
     mot = prompt("Entrez un mot : ");
     compteur++;
     document.write(mot + "<br>");
 }
-document.write(" " + compteur + " Tentatives ont été nécessaires.");
+document.write(" " + compteur + " mots ont été entrés avant le mot patate");
