@@ -5,13 +5,18 @@
 //Faites afficher 1,2,3,4,5,6,7,8,9,10 sur 10 lignes
 
 var i;
-var j;
 
-for (j = 0;j < 10;j++){
+for (var ligne = 0;ligne < 10;ligne++){
     document.write("<br>");
-for (i = 1;i <= 10;i++){
+    for (i = 1;i <= 10;i++){
     document.write(i);
     }
 }
 
-
+//Q18
+// for(var ligne = 0;ligne<10;ligne++){
+//    for(var i =1;i<=10;i++){
+//        document.write(i + " ");
+//    }
+//    document.write("<br>");
+// }

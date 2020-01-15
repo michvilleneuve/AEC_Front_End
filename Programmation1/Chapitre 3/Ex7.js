@@ -10,7 +10,7 @@ var compteur = Number(-1); //J'ai mis la valeur à -1 car si le premier mot entr
 
 // J'ai mis mon "mot = prompt("Entrez un mot : ");" ici par erreur, il doit aller dans la boucle
 
-while (mot !== "patate"){
+while (mot != "patate"){
     mot = prompt("Entrez un mot : ");
     compteur++;
     document.write(mot + "<br>");

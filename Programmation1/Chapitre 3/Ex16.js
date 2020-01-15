@@ -22,3 +22,22 @@ for (i = 0;i < 10;i++){
     }
 }
 document.write("Vous avez gagné " + point + " fois");
+
+//Q16
+// var nbVictoires = 0;
+// var nbDefaites =0;
+// var nbJoueur;
+// var nbAleatoire;
+//
+// for(var i=0;i<=9;i++){
+//    nbAleatoire = Math.floor(Math.random()*2);
+//    nbJoueur = Number(prompt("0 ou 1"));
+//
+//    if(nbJoueur === nbAleatoire)
+//        nbVictoires++;
+//    else
+//        nbDefaites++;
+// }
+//
+// document.write("Vous avez gagné : " + nbVictoires + " fois");
+// document.write("Vous avez perdu : " + nbDefaites + " fois");
