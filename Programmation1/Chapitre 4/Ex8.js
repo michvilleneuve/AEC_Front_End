@@ -16,6 +16,30 @@ for (var i = 0;i < 5;i++){
     tabNom[i] = prompt("Entrez votre nom : ");
     tabNote[i] = Number(prompt("Entrez votre note : "));
     longueur = tabNote.length;
+    somme += tabNote[i];
 }
-resultat = Number(tabNote / longueur);
-document.write(resultat);
+resultat = Number(somme / longueur);
+
+for (i = 0;i< 5;i++){
+    if (tabNote[i] > resultat){
+        document.write(" Étudiant : " + tabNom[i] + " Note : " + tabNote[i]);
+    }
+}
+
+//Q8
+// var noteMoyenne;
+// var tabNoms = [];
+// var tabNotes = [];
+//
+// for(i = 0; i < 5; i++){
+//  tabNoms[i] = prompt("Quel est votre nom?");
+//  tabNotes[i] = Number(prompt("Quelle note avez-vous obtenu?"));
+// }
+// //On pourrait calculer la moyenne dans la boucle du haut aussi et //ne faire que la division en sortant de la boucle
+// noteMoyenne = (tabNotes[0] + tabNotes[1] + tabNotes[2] + tabNotes[3] + tabNotes[4]) / 5;
+//
+// for(i = 0; i < 5; i++) {
+//  if (tabNotes[i] > noteMoyenne){
+//    document.write(tabNoms[i] + tabNotes[i]);
+//  }
+// }
