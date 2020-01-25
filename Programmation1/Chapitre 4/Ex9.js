@@ -19,7 +19,7 @@ for (var i = 0;i < tab.length;i ++){
         nbHaut = tab[i];
 
     }
-    else if(tab[i] < nbBas) {
+    else if(tab[i] < nbBas){
         nbBas = tab[i];
     }
 }
