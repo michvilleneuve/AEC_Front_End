@@ -1,0 +1,76 @@
+<!--Pour les images
+<div class="col-xl6>
+  <img src="" class=img-fluid
+  Le img fluid fait en sorte que ton image aura 100% de largeur
+   de la colonne, on le met pratiquement toujours-->
+
+<!--on utilise jamais de height et width en Bootstrap sinon ton image ne sera pas responsive-->
+<!--On met la colonne de la largeur que tu désires par exemple col-xl-6 avec
+une image fluid, ton image prendra la moitié de l'écran-->
+<!--Si tu veux ajuster le size de l'image, tu dois modifier la largeur de la colonne qui contient l'image-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col-xl-12">
+            <img src="image/drum1st.jpeg" class=img-fluid>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-6 offset-xl-3 orange></div>
+    </div>
+
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-3">
+            <img src="image/drum1st.jpeg" class=img-fluid>
+        </div>
+        <div class="col-xl-3">
+            <img src="image/drum1st.jpeg" class=img-fluid>
+        </div>
+        <div class="col-xl-3">
+            <img src="image/drum1st.jpeg" class=img-fluid>
+        </div>
+        <div class="col-xl-3">
+            <img src="image/drum1st.jpeg" class=img-fluid>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-4"></div>
+        <div class="col-xl-4"></div>
+        <div class="col-xl-4"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-xl-4"></div>
+        <div class="col-xl-4"></div>
+        <div class="col-xl-4"></div>
+    </div>
+</div>
+
+<!--<i class="fab fa-amazon-pay fa-4x"></i>--!>
+
+<script src="https://kit.fontawesome.com/a46d75ba7a.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="bootstrap-4.0.0-dist/js/bootstrap.js"></script>
+</body>
+</html>
